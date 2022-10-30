@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <style>
+        body {
+            font: normal 16pt Arial;
+        }
+        button {
+            width: 80px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+    <button onclick="primeiro()">Botão 1</button>
+    <button onclick="segundo()">Botão 2</button>
+    <button onclick="terceiro()">Botão 3</button>
+
+    <script>
+        function primeiro () {
+            let b1 = window.alert('Você clicou no 1º botão!')
+        }
+        function segundo() {
+            let b2 = window.alert('Você clicou no 2º botão!')
+        }
+        function terceiro() {
+            let b3 = window.alert('Você clicou no 3º botão!')
+        }
+    </script>
+</body>
+</html>
