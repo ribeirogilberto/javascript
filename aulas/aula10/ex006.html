@@ -8,7 +8,7 @@
     <style>
         div#area {
             font: normal 16pt Arial;
-            background-color: rgb(42, 139, 42);
+            background: rgb(42, 139, 42);
             color: white;
             width: 200px;
             height: 200px;
@@ -23,6 +23,10 @@
     </div>
 
     <script>
+        /*
+        .addEventListener('evento', ação) 
+        serve para prestar atenção em um determinado evento no JavaScript
+        */
         var a = window.document.getElementById('area')
         a.addEventListener('click', clicar)
         a.addEventListener('mouseenter', entrar)
