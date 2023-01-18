@@ -5,8 +5,7 @@ while (c <= 6) {
 }
 
 /*
-
-ESTRUTURA DE REPETIÇÃO COM TESTE LÓGICO NO INÍCIO (mais utilizada)
+Estrutura de Repetição com Teste Lógico no Início (mais utilizada)
 
 var c = 1
 while (c <= 6) {
@@ -18,7 +17,7 @@ while (c <= 6) {
 
 
 /*
-ESTRUTURA DE REPETIÇÃO COM TESTE LÓGICO NO FINAL
+Estrutura de Repetição com Teste Lógico no Final 
 
 var c = 1
 do {
@@ -30,10 +29,10 @@ do {
 
 
 /*
-console.log ('Tudo bem?')
-console.log ('Tudo bem?')
-console.log ('Tudo bem?')
-console.log ('Tudo bem?')
-console.log ('Tudo bem?')
-console.log ('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
 */
