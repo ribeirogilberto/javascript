@@ -1,4 +1,4 @@
-function media() {
+function média() {
     let nome = window.prompt('Qual é o nome do aluno?')
     let n1 = Number(window.prompt(`Qual foi a primeira nota de ${nome}?`))
     let n2 = Number(window.prompt(`Além de ${n1}, qual foi a outra nota de ${nome}?`))
@@ -9,7 +9,6 @@ function media() {
     } else {
         msg = 'Estude um pouco mais!'
     }
-
     let res = document.getElementById('situacao')
     res.innerHTML = `<p>Calculando a média final de <mark>${nome}</mark>.</p>`
     res.innerHTML += `<p>As notas obtidas foram <mark>${n1} e ${n2}</mark></p>`
